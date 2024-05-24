@@ -9,6 +9,7 @@ Adverse conditions like snow, rain, nighttime, and fog, pose challenges for auto
 - Image enhancement for snowy,rainy,foggy and nighttime images within a unified architecture
 - A robust scaled-illumination attention remains learning focus on road accross different condition 
 - Hierarchical discrimination on different image patch-level regarding: scene,object and texture.
+![archi1 drawio](https://github.com/Jumponthemoon/AllWeatherNet/assets/39290403/0fb128f1-b5c7-4e13-a718-a1254779022a)
 
 ## Installation
 ```bash
