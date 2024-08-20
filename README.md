@@ -8,7 +8,7 @@ Unified Image enhancement for autonomous driving under adverse weather and lowli
 - Hierarchical discrimination on different image patch-level regarding: scene,object and texture.
 ![archi1 drawio](https://github.com/Jumponthemoon/AllWeatherNet/assets/39290403/0fb128f1-b5c7-4e13-a718-a1254779022a)
 
-## Notice
+## Note
 The test code will be released soon...
 
 
