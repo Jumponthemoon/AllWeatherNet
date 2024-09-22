@@ -9,9 +9,9 @@ opt = parser.parse_args()
 
 if opt.train:
 	os.system("python train.py \
-		--dataroot ../final_dataset \
+		--dataroot ../acdc_dataset \
 		--no_dropout \
-		--name enlightening \
+		--name all2day \
 		--model single \
 		--dataset_mode unaligned \
 		--which_model_netG sid_unet_resize \
@@ -21,7 +21,7 @@ if opt.train:
         --patchD_3 5 \
         --n_layers_D 5 \
         --n_layers_patchD 4 \
-		--fineSize 320 \
+		--fineSize 512 \
         --patchSize 32 \
 		--skip 1 \
 		--batchSize 32 \
@@ -41,7 +41,7 @@ elif opt.predict:
 	for i in range(1):
 	        os.system("python predict.py \
 				--dataroot  /media/chenghao/Passport/data/all2day_960x540 \
-	        	--name all2day_960_dis_window0_new_epoch300 \
+	        	--name all2day \
 	        	--model single \
 	        	--which_direction AtoB \
 	        	--no_dropout \
