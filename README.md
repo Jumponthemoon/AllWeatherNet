@@ -30,12 +30,19 @@ pip install -r requirements.txt
     │   └── trainB  # Contains normal weather images
     ```
 
-## **Demo**
-1. Specify the path to your demo image by setting the `dataroot` variable in `script.py`.
-2. Run the script with the following command:
+### **Demo Instructions**
+
+1. **Download the Pretrained Model:**  
+   Download the pretrained model from [this link](https://drive.google.com/file/d/1n26I1FgwmMtwdKyFZNvd-sDvrR-0qm8v/view?usp=drive_link) and place it in the `checkpoints` folder within the repository.
+
+2. **Set the Demo Image Path:**  
+   Specify the path to your demo image by setting the `dataroot` variable in `script.py`. The image can either be the original or a downsampled version from the original dataset.
+
+3. **Run the Script:**  
+   Execute the script using the following command:
    ```bash
    python scripts/script.py --predict
-   ```
+
 
 ## **Acknowledgements**
 This project is heavily inspired by [EnlightenGAN](https://github.com/VITA-Group/EnlightenGAN). We greatly appreciate the authors for their outstanding contributions.
