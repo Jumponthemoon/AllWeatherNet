@@ -40,7 +40,7 @@ if opt.train:
 elif opt.predict:
 	for i in range(1):
 	        os.system("python predict.py \
-				--dataroot  /media/chenghao/Passport/data/all2day_960x540 \
+				--dataroot  /media/chenghao/Passport/data/all2day \
 	        	--name all2day \
 	        	--model single \
 	        	--which_direction AtoB \
@@ -53,5 +53,5 @@ elif opt.predict:
                 --self_attention \
                 --times_residual \
 	        	--instance_norm 0 --resize_or_crop='no'\
-	        	--which_epoch 300")
+	        	--which_epoch latest")
 			
