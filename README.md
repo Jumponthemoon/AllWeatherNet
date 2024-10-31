@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 
 ## **Acknowledgements**
-This project is heavily inspired by [EnlightenGAN](https://github.com/VITA-Group/EnlightenGAN). We greatly appreciate the authors for their outstanding contributions.
+This project is inspired by [EnlightenGAN](https://github.com/VITA-Group/EnlightenGAN). We greatly appreciate the authors for their outstanding contributions.
 
 ## **Citation**
 If you find this work useful, please cite:
