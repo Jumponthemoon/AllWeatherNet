@@ -1,5 +1,5 @@
 
-# **AllWeatherNet (ICPR 2024 Best Paper)**
+# **AllWeatherNet (ICPR 2024 Best Student Paper)**
 **Unified Image Enhancement for Autonomous Driving under Adverse Weather and Lowlight Conditions**
 
 AllWeatherNet is an advanced image enhancement framework designed to improve the visibility of images captured in challenging weather conditions, such as snow, rain, fog, and low-light environments. This solution is particularly tailored for autonomous driving applications, ensuring safety and performance in diverse environments.
