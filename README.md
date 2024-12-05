@@ -64,5 +64,5 @@ If you find this work useful, please cite:
 - [ ] Add more documentation and tutorials
 
 
-![Views](https://komarev.com/ghpvc/?username=Jumponthemoon&color=blue)
+![Views](https://komarev.com/ghpvc/?username=Jumponthemoon&color=blue&abbreviated=true)
 
