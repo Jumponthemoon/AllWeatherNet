@@ -50,12 +50,17 @@ This project is inspired by [EnlightenGAN](https://github.com/VITA-Group/Enlight
 ## **Citation**
 If you find this work useful, please cite:
 ```bibtex
-@article{qian2024allweathernet,
-  title={AllWeatherNet: Unified Image enhancement for autonomous driving under adverse weather and lowlight-conditions},
-  author={Qian, Chenghao and Rezaei, Mahdi and Anwar, Saeed and Li, Wenjing and Hussain, Tanveer and Azarmi, Mohsen and Wang, Wei},
-  journal={arXiv preprint arXiv:2409.02045},
-  year={2024}
-}
+@inbook{Qian_2024,
+   title={AllWeather-Net: Unified Image Enhancement for Autonomous Driving Under Adverse Weather and Low-Light Conditions},
+   ISBN={9783031781131},
+   ISSN={1611-3349},
+   url={http://dx.doi.org/10.1007/978-3-031-78113-1_11},
+   DOI={10.1007/978-3-031-78113-1_11},
+   booktitle={Pattern Recognition},
+   publisher={Springer Nature Switzerland},
+   author={Qian, Chenghao and Rezaei, Mahdi and Anwar, Saeed and Li, Wenjing and Hussain, Tanveer and Azarmi, Mohsen and Wang, Wei},
+   year={2024},
+   month=dec, pages={151–166} }
 ```
 
 ## **To-Do List**
