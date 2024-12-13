@@ -40,7 +40,7 @@ if opt.train:
 elif opt.predict:
 	for i in range(1):
 	        os.system("python predict.py \
-				--dataroot  /media/chenghao/Passport/data/all2day \
+				--dataroot  ./test_data \
 	        	--name all2day \
 	        	--model single \
 	        	--which_direction AtoB \
