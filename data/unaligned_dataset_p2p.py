@@ -3,7 +3,7 @@ from torch import nn
 import os.path
 import torchvision.transforms as transforms
 from data.base_dataset import BaseDataset, get_transform
-from data.image_folder import make_dataset, store_dataset
+from data.image_folder import make_dataset, store_dataset, store_dataset_p2p
 from PIL import Image
 import PIL
 from pdb import set_trace as st
@@ -138,8 +138,12 @@ class UnalignedDataset(BaseDataset):
         # self.B_paths = make_dataset(self.dir_B)
         #images, all_path
         #data_list = [i_id.strip() for i_id in open('/home/chenghao/Project/code/DANNet/dataset/lists/zurich_dn_pair_train.csv')]
-        
-        self.A_imgs, self.A_paths, self.B_imgs, self.B_paths = store_dataset(self.root)
+        if opt.phase == 'train':
+
+           self.A_imgs, self.A_paths, self.B_imgs, self.B_paths = store_dataset_p2p(self.root)
+        else:
+           self.A_imgs, self.A_paths = store_dataset(self.dir_A)
+           self.B_imgs, self.B_paths = store_dataset(self.dir_B)
         #self.A_imgs, self.A_paths, self.B_imgs, self.B_paths = store_dataset3(self.root)
         # self.A_paths = sorted(self.A_paths)
         # self.B_paths = sorted(self.B_paths)

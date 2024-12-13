@@ -34,7 +34,7 @@ def make_dataset(dir):
     return images
 
 
-def store_dataset(dir):
+def store_dataset_p2p(dir):
     A_paths = []
     A_images = []
     B_images = []
@@ -54,6 +54,23 @@ def store_dataset(dir):
         
 
     return A_images, A_paths,B_images, B_paths
+
+def store_dataset(dir):
+    images = []
+    all_path = []
+    assert os.path.isdir(dir), '%s is not a valid directory' % dir
+
+    for root, _, fnames in sorted(os.walk(dir)):
+        for fname in fnames:
+            if is_image_file(fname):
+                path = os.path.join(root, fname)
+                img = Image.open(path).convert('RGB')
+                images.append(img)
+                all_path.append(path)
+
+    return images, all_path
+
+
 
 def default_loader(path):
     return Image.open(path).convert('RGB')
