@@ -16,21 +16,14 @@ AllWeatherNet is an advanced image enhancement framework designed to improve the
 
 ## **Environment Setup**
 
-To set up the required environment, run:
+To set up the required environment, please run:
 ```bash
+conda create -n allweathernet python=3.8
+conda activate allweathernet
+pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 ```
-
-## **Dataset Preparation**
-1. Download the dataset from the [ACDC official website](https://acdc.vision.ee.ethz.ch/).
-2. Organize the dataset in the following structure:
-    ```
-    ├── ACDC
-    │   ├── trainA  # Contains adverse weather images
-    │   └── trainB  # Contains normal weather images
-    ```
-
-### **Demo Instructions**
+## **Demo Instructions**
 
 1. **Download the Pretrained Model:**  
    Download the pretrained model from [this link](https://drive.google.com/file/d/1n26I1FgwmMtwdKyFZNvd-sDvrR-0qm8v/view?usp=drive_link) and place it in the `checkpoints` folder within the repository.
@@ -42,6 +35,17 @@ pip install -r requirements.txt
    Execute the script using the following command:
    ```bash
    python scripts/script.py --predict
+
+## **Training (to be updated)**
+1. Download the dataset from the [ACDC official website](https://acdc.vision.ee.ethz.ch/).
+2. Organize the dataset in the following structure:
+    ```
+    ├── ACDC
+    │   ├── trainA  # Contains adverse weather images
+    │   └── trainB  # Contains normal weather images
+    ```
+
+
 
 
 ## **Acknowledgements**
