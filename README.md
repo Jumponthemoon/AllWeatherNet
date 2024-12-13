@@ -35,10 +35,10 @@ pip install -r requirements.txt
 1. **Download the Pretrained Model:**  
    Download the pretrained model from [this link](https://drive.google.com/file/d/1n26I1FgwmMtwdKyFZNvd-sDvrR-0qm8v/view?usp=drive_link) and place it in the `checkpoints` folder within the repository.
 
-2. **Set the Demo Image Path:**  
-   Specify the path to your demo image by setting the `dataroot` variable in `script.py`. The image can either be the original or a downsampled version from the original dataset.
+2. **Set the Demo Image Path:**
+   You can put the images to be tested under the folder of `test_data/testA`. Or you can specify the path by setting the `dataroot` variable in `script.py` but your folder should contains `testB` with an image as a placeholder. Your test image can either be the original or a downsampled version from the original dataset.
 
-3. **Run the Script:**  
+5. **Run the Script:**  
    Execute the script using the following command:
    ```bash
    python scripts/script.py --predict
