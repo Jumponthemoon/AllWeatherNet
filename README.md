@@ -1,13 +1,9 @@
 
-# **AllWeatherNet** 
-#### **🏅 ICPR 2024 Best Paper Award**
+# **AllWeather-Net** 
+### **🏅 ICPR 2024 Overall Best Paper**
 **Unified Image Enhancement for Autonomous Driving under Adverse Weather and Lowlight Conditions**
-
 AllWeatherNet is an advanced image enhancement framework designed to improve the visibility of images captured in challenging weather conditions, such as snow, rain, fog, and low-light environments. This solution is particularly tailored for autonomous driving applications, ensuring safety and performance in diverse environments.
-
-![Original Input](https://github.com/Jumponthemoon/AllWeatherNet/assets/39290403/15efd3e4-f878-4295-9e85-6b686d79eddc)
-![Original Input 2](https://github.com/Jumponthemoon/AllWeatherNet/assets/39290403/0eb1a130-5ba3-4ed4-bef2-49a4b922e2ff)
-
+![ezgif com-animated-gif-maker (8)](https://github.com/user-attachments/assets/d629cb2e-6fc2-4510-96e1-4cd42c276254)
 ## **Key Features**
 - **Unified Enhancement:** Enhances images captured under various adverse weather conditions, including snowy, rainy, foggy, and nighttime scenarios.
 - **Scaled-Illumination Attention:** Employs a robust scaled-illumination attention mechanism to maintain focus on the road across different conditions.
@@ -16,7 +12,7 @@ AllWeatherNet is an advanced image enhancement framework designed to improve the
 ![Architecture](https://github.com/Jumponthemoon/AllWeatherNet/assets/39290403/0fb128f1-b5c7-4e13-a718-a1254779022a)
 
 ## **Environment Setup**
-
+> ⭐ **If you like our work or find it useful, please give us a star or cite below. Thanks!**
 To set up the required environment, please run:
 ```bash
 conda create -n allweathernet python=3.8
